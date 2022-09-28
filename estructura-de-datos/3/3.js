@@ -8,8 +8,7 @@ function sumarEnteros(array) {
 
   let suma = 0;
   for(let i in array){
-    if(Array.isArray(array[i])) suma += (array[i]);
-    else suma += array[i];
+     suma += array[i];
   }
   return suma;
 }
