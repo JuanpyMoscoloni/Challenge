@@ -8,15 +8,6 @@ const generar = document.getElementById("generate");
 const validacion = document.getElementById("validate");
 
 
-function esReFuerte() {
-    var strongRegex = new RegExp("^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
-    if (strongRegex.test($(this).val())) {
-            alert("ok");
-    } 
-    return true;
-};
-
-
 
 class Password {
     constructor(long) {
